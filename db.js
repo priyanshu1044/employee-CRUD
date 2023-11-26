@@ -1,7 +1,7 @@
 
 const mongoose =require('mongoose')
 
-const dbUri='mongodb+srv://priyanshu:priyanshu1234@cluster0.svwgo43.mongodb.net/employee_db?retryWrites=true&w=majority'
+const dbUri='Your mongodb url here'
 
 mongoose.set('strictQuery',false)
 module.exports=()=>{
